@@ -1,5 +1,6 @@
 const { expect } = require('chai');
-const { add } = require('../src/stringCalculator');
+import { add } from "../src/stringCalculator";
+
 describe('StringCalculator Algorithm', () => {
 
      describe('stringCalculatorTests', () => {
